@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { NbChatModule } from '@nebular/theme';
 
 import { AdminLayoutRoutes } from './admin-layout.routing';
 
@@ -21,6 +22,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     CommonModule,
     RouterModule.forChild(AdminLayoutRoutes),
+    NbChatModule,
     FormsModule,
     NgbModule
   ],
